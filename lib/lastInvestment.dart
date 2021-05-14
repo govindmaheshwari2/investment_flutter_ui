@@ -20,7 +20,7 @@ class LastInvestment extends StatelessWidget {
       decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.all(Radius.circular(15)),
-          boxShadow: [BoxShadow(color: Colors.black54,offset: Offset(0,0),blurRadius: 15)]
+          boxShadow: [BoxShadow(color: Colors.black54.withOpacity(0.2),offset: Offset(0,0),blurRadius: 15)]
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
