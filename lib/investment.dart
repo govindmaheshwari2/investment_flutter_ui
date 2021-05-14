@@ -60,6 +60,7 @@ class Return extends StatelessWidget {
           Container(
             height: 120,
             child: LineChart(LineChartData(
+              borderData: FlBorderData(show: false),
                 titlesData: FlTitlesData(
                     leftTitles: SideTitles(showTitles: false),
                     bottomTitles: SideTitles(
@@ -254,7 +255,7 @@ class RecommendedItem extends StatelessWidget {
               style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
-                  color: Colors.greenAccent),
+                  color: Colors.green),
             ),
           )
         ],
